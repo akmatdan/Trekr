@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ScrollView {
-            Image("highlandss")
+            Image("highlands")
                 .resizable()
                 .scaledToFit()
             
