@@ -13,6 +13,7 @@
 		E3660AB42601076900EFA276 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3660AB32601076900EFA276 /* Preview Assets.xcassets */; };
 		E3660ABE2601123F00EFA276 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = E3660ABC2601123F00EFA276 /* tips.json */; };
 		E3660ABF2601123F00EFA276 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = E3660ABD2601123F00EFA276 /* locations.json */; };
+		E3D5746326032E2C0044D710 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5746226032E2C0044D710 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E3660AB52601076900EFA276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3660ABC2601123F00EFA276 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		E3660ABD2601123F00EFA276 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		E3D5746226032E2C0044D710 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				E3660AB02601076900EFA276 /* Assets.xcassets */,
 				E3660AB52601076900EFA276 /* Info.plist */,
 				E3660ABD2601123F00EFA276 /* locations.json */,
+				E3D5746226032E2C0044D710 /* Location.swift */,
 				E3660ABC2601123F00EFA276 /* tips.json */,
 				E3660AB22601076900EFA276 /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3660AAF2601076500EFA276 /* ContentView.swift in Sources */,
+				E3D5746326032E2C0044D710 /* Location.swift in Sources */,
 				E3660AAD2601076500EFA276 /* TrekrApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
