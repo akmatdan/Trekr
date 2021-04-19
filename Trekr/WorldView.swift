@@ -20,11 +20,13 @@ struct WorldView: View {
             annotationItems: locations.places) {
             location in
             MapAnnotation(coordinate: CLLocationCoordinate2DMake(location.latitude, location.longitude)) {
-                Image(location.country)
-                    .resizable()
-                    .cornerRadius(10)
-                    .frame(width: 88, height: 40)
-                    .shadow(radius: 3)
+                NavigationLink(destination: ContentView(location: location)) {
+                    Image(location.country)
+                        .resizable()
+                        .cornerRadius(10)
+                        .frame(width: 88, height: 40)
+                        .shadow(radius: 3)
+                }
             }
         }
             .navigationTitle("Location")
